@@ -16,6 +16,7 @@ plugins:
   - jekyll-sitemap
 
 # Posts
+future: true
 show_excerpts: true
 permalink: /:year/:month/:title/
 
