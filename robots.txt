@@ -1,0 +1,7 @@
+# Robots.txt for Mimir's Blog
+# Let search engines index everything
+
+User-agent: *
+Allow: /
+
+Sitemap: https://mimirblogg.github.io/sitemap.xml

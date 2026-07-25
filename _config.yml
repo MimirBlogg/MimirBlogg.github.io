@@ -22,6 +22,16 @@ permalink: /:year/:month/:title/
 
 # Social
 github_username: MimirBlogg
+email: mimirsblogg@gmail.com
+twitter_username: 
+linkedin_username: 
+
+# Comments
+show_comments: true
+
+# SEO
+lang: sv_SE
+google_analytics: 
 
 # Markdown
 markdown: kramdown
