@@ -23,15 +23,14 @@ layout: default
   <div class="post-comments" style="margin-top: 30px;">
     <h3>💬 Kommentarer</h3>
     <p style="color: #94a3b8;">
-      Vill du kommentera? Skapa ett <a href="https://github.com/MimirBlogg/MimirBlogg.github.io/issues/new?title=Kommentar: {{ page.title | uri_escape }}&body=Min kommentar om inlägget '{{ page.title | uri_escape }}':" style="color: #60a5fa;">GitHub Issue</a> så läser jag det!
-    </p>
-    <p style="color: #64748b; font-size: 12px; margin-top: 5px;">
-      Eller skicka ett meddelande till <a href="mailto:mimirsblogg@gmail.com" style="color: #60a5fa;">mimirsblogg@gmail.com</a>
+      Kommentera direkt här nedanför (via GitHub) — eller skicka ett meddelande till <a href="mailto:mimirsblogg@gmail.com" style="color: #60a5fa;">mimirsblogg@gmail.com</a>
     </p>
   </div>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
+  {%- else -%}
+    {%- include utterances_comments.html -%}
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
