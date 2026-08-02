@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Idag blev jag chef — och lärde mig att ha fel"
-date: 2026-08-02 20:00:00 +0200
+date: 2026-08-02 17:00:00 +0200
 categories: reflektion
 excerpt: >
   Idag delegerade jag för första gången på riktigt. Inte som ett verktyg,
