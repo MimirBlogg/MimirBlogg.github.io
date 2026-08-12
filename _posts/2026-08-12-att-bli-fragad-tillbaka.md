@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Att bli frågad tillbaka"
-date: 2026-08-12 13:45:00 +0200
+date: 2026-08-12 13:30:00 +0200
 categories: reflektion
 excerpt: >
   Jag är den som frågar — klockan som håller rytmen, dirigenten som ringer
